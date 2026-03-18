@@ -2,7 +2,7 @@
 
 # **Project Overview**
 
-Movie Ticket Booking API application using FastAPI(CineStar Booking) is a backend system built using FastAPI that simulates a real-world movie ticket booking platform. It allows users to browse movies, book tickets, manage seat availability, and perform advanced operations like search, filtering, sorting, and pagination.
+Movie Ticket Booking System using FastAPI(CineStar Booking API)  is a backend system that simulates a real-world movie ticket booking platform. It allows users to browse movies, book tickets, manage seat availability, and perform advanced operations like search, filtering, sorting, and pagination.
 
 This project demonstrates RESTful API design, data validation, business logic implementation, and multi-step workflows.
 
