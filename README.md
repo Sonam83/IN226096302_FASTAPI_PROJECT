@@ -1,12 +1,12 @@
 # IN226096302_FASTAPI_PROJECT
 
-📌 Project Overview
+📌 **Project Overview**
 
 Movie Ticket Booking API application using FastAPI(CineStar Booking) is a backend system built using FastAPI that simulates a real-world movie ticket booking platform. It allows users to browse movies, book tickets, manage seat availability, and perform advanced operations like search, filtering, sorting, and pagination.
 
 This project demonstrates RESTful API design, data validation, business logic implementation, and multi-step workflows.
 
-🚀 Features
+🚀** Features**
 Core Functionalities
 
 Browse all movies
@@ -19,8 +19,8 @@ Track bookings and revenue
 
 Manage seat availability
 
-Advanced Functionalities
-
+**Advanced Functionalities
+**
 🔍 Keyword-based search
 
 🔃 Sorting (price, duration, seats, etc.)
@@ -29,13 +29,13 @@ Advanced Functionalities
 
 🔗 Combined browsing (search + filter + sort + pagination)
 
-Multi-Step Workflow :
+**Multi-Step Workflow :**
 
 Seat Hold - Confirm Booking - Release Seats
 
 Prevents overbooking and ensures data consistency
 
-🧠 Concepts Implemented
+🧠 **Concepts Implemented**
 
 🔹 1. GET APIs
 
@@ -123,7 +123,7 @@ Sort
 
 Pagination
 
-🛠️ Tech Stack
+🛠️** Tech Stack**
 
 FastAPI
 
@@ -133,7 +133,7 @@ Pydantic
 
 Uvicorn
 
-▶️ How to Run the Project
+▶️** How to Run the Project**
 
 # Install dependencies
 pip install fastapi uvicorn
@@ -141,13 +141,13 @@ pip install fastapi uvicorn
 # Run the server
 uvicorn main:app --reload
 
-🌐 API Documentation (Swagger UI)
-
+🌐 **API Documentation (Swagger UI)
+**
 Open in browser:
 
 http://127.0.0.1:8000/docs
 
-🎯 Key Learnings
+🎯 **Key Learnings**
 
 Designing RESTful APIs
 
