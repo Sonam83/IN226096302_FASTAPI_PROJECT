@@ -22,7 +22,7 @@ This project demonstrates RESTful API design, data validation, business logic im
 
 - Manage seat availability
 
-**Advanced Functionalities**
+# **Advanced Functionalities**
 
 
 🔍 Keyword-based search
@@ -33,13 +33,13 @@ This project demonstrates RESTful API design, data validation, business logic im
 
 🔗 Combined browsing (search + filter + sort + pagination)
 
-**Multi-Step Workflow :**
+# **Multi-Step Workflow :**
 
 
 Seat Hold - Confirm Booking - Release Seats
 Prevents overbooking and ensures data consistency
 
-🧠 **Concepts Implemented**
+# **Concepts Implemented**
 
 
 🔹 1. GET APIs
@@ -125,7 +125,7 @@ Handled:
 
 - Pagination
 
-🛠️**Tech Stack**
+# **Tech Stack**
 
 
 - FastAPI
