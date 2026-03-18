@@ -7,6 +7,7 @@ Movie Ticket Booking API application using FastAPI(CineStar Booking) is a backen
 
 This project demonstrates RESTful API design, data validation, business logic implementation, and multi-step workflows.
 
+
 🚀**Features**
 
 
