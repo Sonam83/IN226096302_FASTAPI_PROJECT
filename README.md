@@ -6,7 +6,8 @@ Movie Ticket Booking API application using FastAPI(CineStar Booking) is a backen
 
 This project demonstrates RESTful API design, data validation, business logic implementation, and multi-step workflows.
 
-🚀** Features**
+🚀**Features**
+
 Core Functionalities
 
 Browse all movies
@@ -19,20 +20,16 @@ Track bookings and revenue
 
 Manage seat availability
 
-**Advanced Functionalities
-**
+**Advanced Functionalities**
+
 🔍 Keyword-based search
-
 🔃 Sorting (price, duration, seats, etc.)
-
 📄 Pagination for large datasets
-
 🔗 Combined browsing (search + filter + sort + pagination)
 
 **Multi-Step Workflow :**
 
 Seat Hold - Confirm Booking - Release Seats
-
 Prevents overbooking and ensures data consistency
 
 🧠 **Concepts Implemented**
@@ -75,27 +72,24 @@ filter_movies_logic() to filtering with query params
 
 🔹 4. CRUD Operations 
 
-POST → Create movie
+POST - Create movie
 
-PUT → Update movie
+PUT - Update movie
 
-DELETE → Delete movie
+DELETE - Delete movie
 
 Handled:
 
 ✅ 201 Created
-
 ❌ 404 Not Found
-
 ❌ Duplicate entries
-
 ❌ Prevent delete if bookings exist
 
 🔹 5. Multi-Step Workflow 
 
 Implemented connected endpoints:
 
-POST /seat-hold → Hold seats temporarily
+POST /seat-hold - Hold seats temporarily
 
 POST /seat-confirm/{hold_id} to Confirm booking
 
@@ -123,7 +117,7 @@ Sort
 
 Pagination
 
-🛠️** Tech Stack**
+🛠️**Tech Stack**
 
 FastAPI
 
@@ -133,7 +127,7 @@ Pydantic
 
 Uvicorn
 
-▶️** How to Run the Project**
+▶️**How to Run the Project**
 
 # Install dependencies
 pip install fastapi uvicorn
@@ -141,8 +135,8 @@ pip install fastapi uvicorn
 # Run the server
 uvicorn main:app --reload
 
-🌐 **API Documentation (Swagger UI)
-**
+🌐 **API Documentation (Swagger UI)**
+
 Open in browser:
 
 http://127.0.0.1:8000/docs
