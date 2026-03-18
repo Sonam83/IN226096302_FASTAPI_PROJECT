@@ -10,17 +10,17 @@ This project demonstrates RESTful API design, data validation, business logic im
 🚀**Features**
 
 
-Core Functionalities
+- Core Functionalities
 
-Browse all movies
+- Browse all movies
 
-View movie details by ID
+- View movie details by ID
 
-Book movie tickets
+- Book movie tickets
 
-Track bookings and revenue
+- Track bookings and revenue
 
-Manage seat availability
+- Manage seat availability
 
 **Advanced Functionalities**
 
