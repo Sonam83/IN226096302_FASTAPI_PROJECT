@@ -44,35 +44,35 @@ Prevents overbooking and ensures data consistency
 
 🔹 1. GET APIs
 
-Home route (/)
+- Home route (/)
 
-List all movies (/movies)
+- List all movies (/movies)
 
-Get movie by ID (/movies/{movie_id})
+- Get movie by ID (/movies/{movie_id})
 
-Summary endpoint (/movies/summary)
+- Summary endpoint (/movies/summary)
 
-View all bookings (/bookings)
+- View all bookings (/bookings)
 
 🔹 2. POST + Pydantic
 
-Request body validation using BaseModel
+- Request body validation using BaseModel
 
-Field constraints:
+- Field constraints:
 
 min_length, gt, le
 
-Proper error handling for invalid inputs
+- Proper error handling for invalid inputs
 
 🔹 3. Helper Functions
 
-Reusable logic implemented using:
+- Reusable logic implemented using:
 
-find_movie() to fetch movie by ID
+- find_movie() to fetch movie by ID
 
-calculate_ticket_cost() to pricing logic with seat types & promo codes
+- calculate_ticket_cost() to pricing logic with seat types & promo codes
 
-filter_movies_logic() to filtering with query params
+- filter_movies_logic() to filtering with query params
 
 ✔ Used Query() parameters
 
@@ -80,11 +80,11 @@ filter_movies_logic() to filtering with query params
 
 🔹 4. CRUD Operations 
 
-POST - Create movie
+- POST - Create movie
 
-PUT - Update movie
+- PUT - Update movie
 
-DELETE - Delete movie
+- DELETE - Delete movie
 
 Handled:
 
@@ -95,13 +95,13 @@ Handled:
 
 🔹 5. Multi-Step Workflow 
 
-Implemented connected endpoints:
+- Implemented connected endpoints:
 
-POST /seat-hold - Hold seats temporarily
+- POST /seat-hold - Hold seats temporarily
 
-POST /seat-confirm/{hold_id} to Confirm booking
+- POST /seat-confirm/{hold_id} to Confirm booking
 
-DELETE /seat-release/{hold_id} to Release held seats
+- DELETE /seat-release/{hold_id} to Release held seats
 
 ✔ Ensures real-world booking flow
 
@@ -119,22 +119,22 @@ DELETE /seat-release/{hold_id} to Release held seats
 
 ✔ Also implemented for bookings:
 
-Search
+- Search
 
-Sort
+- Sort
 
-Pagination
+- Pagination
 
 🛠️**Tech Stack**
 
 
-FastAPI
+- FastAPI
 
-Python
+- Python
 
-Pydantic
+- Pydantic
 
-Uvicorn
+- Uvicorn
 
 ▶️**How to Run the Project**
 
@@ -155,14 +155,14 @@ http://127.0.0.1:8000/docs
 🎯 **Key Learnings**
 
 
-Designing RESTful APIs
+- Designing RESTful APIs
 
-Implementing real-world business logic
+- Implementing real-world business logic
 
-Data validation using Pydantic
+- Data validation using Pydantic
 
-Handling edge cases (availability, duplicates)
+- Handling edge cases (availability, duplicates)
 
-Building scalable API structure
+- Building scalable API structure
 
-Multi-step workflow design
+- Multi-step workflow design
