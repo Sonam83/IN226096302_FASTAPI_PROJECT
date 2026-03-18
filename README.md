@@ -64,7 +64,7 @@ Prevents overbooking and ensures data consistency
 
 - Proper error handling for invalid inputs
 
-🔹** 3. Helper Functions**
+🔹**3. Helper Functions**
 
 - Reusable logic implemented using:
 
@@ -78,7 +78,7 @@ Prevents overbooking and ensures data consistency
 
 ✔ Applied is not None conditions for filtering
 
-🔹** 4. CRUD Operations**
+🔹**4. CRUD Operations**
 
 - POST - Create movie
 
@@ -117,7 +117,7 @@ Handled:
 
 🔥 /movies/browse - combined endpoint
 
-✔ Also implemented for bookings:
+**✔ Also implemented for bookings:**
 
 - Search
 
