@@ -147,15 +147,11 @@ pip install fastapi uvicorn
 uvicorn main:app --reload
 
 🌐 **API Documentation (Swagger UI)**
-
-
 Open in browser:
 
 http://127.0.0.1:8000/docs
 
 🎯 **Key Learnings**
-
-
 - Designing RESTful APIs
 
 - Implementing real-world business logic
