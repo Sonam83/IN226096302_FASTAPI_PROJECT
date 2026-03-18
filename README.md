@@ -42,7 +42,7 @@ Prevents overbooking and ensures data consistency
 # **Concepts Implemented**
 
 
-🔹 1. GET APIs
+🔹 **1. GET APIs**
 
 - Home route (/)
 
@@ -54,17 +54,17 @@ Prevents overbooking and ensures data consistency
 
 - View all bookings (/bookings)
 
-🔹 2. POST + Pydantic
+🔹 **2. POST + Pydantic**
 
 - Request body validation using BaseModel
 
 - Field constraints:
 
-min_length, gt, le
+  min_length, gt, le
 
 - Proper error handling for invalid inputs
 
-🔹 3. Helper Functions
+🔹** 3. Helper Functions**
 
 - Reusable logic implemented using:
 
@@ -78,7 +78,7 @@ min_length, gt, le
 
 ✔ Applied is not None conditions for filtering
 
-🔹 4. CRUD Operations 
+🔹** 4. CRUD Operations**
 
 - POST - Create movie
 
@@ -93,7 +93,7 @@ Handled:
 ❌ Duplicate entries
 ❌ Prevent delete if bookings exist
 
-🔹 5. Multi-Step Workflow 
+🔹 **5. Multi-Step Workflow**
 
 - Implemented connected endpoints:
 
@@ -107,7 +107,7 @@ Handled:
 
 ✔ Maintains seat consistency
 
-🔹 6. Advanced APIs 
+🔹 **6. Advanced APIs** 
 
 🔍 /movies/search - keyword search
 
@@ -145,12 +145,12 @@ pip install fastapi uvicorn
 # Run the server
 uvicorn main:app --reload
 
-🌐 **API Documentation (Swagger UI)**
+# **API Documentation (Swagger UI)**
 Open in browser:
 
 http://127.0.0.1:8000/docs
 
-🎯 **Key Learnings**
+# **Key Learnings**
 - Designing RESTful APIs
 
 - Implementing real-world business logic
